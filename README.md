@@ -17,6 +17,7 @@ one-to-one and onto function (bijection) $f: V_1 \rightarrow V_2$ such that $(u,
  
  This is an example of a pigeon hole problem. Since n pigeons cannot individually fit into n-1 pigeon holes, we can also determine that v vertices in G1 cannot map uniquely to v-1 vertices in G2 (where G1 and G2 are graphs).
 - So for a G1 with v vertices & a G2 with less than v vertices, the function can be onto but not one-to-one. 
+
 Say G1 has v vertices and G2 has more than v vertices. In order to be one-to-one, all vertices in G1 must map to v unique vertices in G2. However there are more than v vertices in G2, meaning we have at least one vertex in G2 that has no corresponding vertex in G1. 
 - So for a G1 with v vertices & a G2 with v+1 vertices, the function can be one-to-one but onto.
 
